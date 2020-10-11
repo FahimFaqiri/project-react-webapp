@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 // import components
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/pages/HomePage/Home";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Navbar />
       {/* switch looks for a match and then stop looking */}
       <Switch>
-        <Route path="/" />
+        <Route path="/" exact component={Home} />
       </Switch>
     </Router>
   );
