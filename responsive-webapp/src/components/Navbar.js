@@ -71,7 +71,7 @@ function Navbar() {
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  Services
+                  Producten
                 </Link>
               </li>
               <li className="nav-item">
@@ -80,14 +80,14 @@ function Navbar() {
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  Products
+                  Contact
                 </Link>
               </li>
               <li className="nav-btn">
                 {/* check if button is true else show the mobile button */}
                 {button ? (
                   <Link to="/sign-up" className="btn-link">
-                    <Button buttonStyle="btn--outline">SIGN UP</Button>
+                    <Button buttonStyle="btn--outline">Meld je aan!</Button>
                   </Link>
                 ) : (
                   <Link
@@ -96,7 +96,7 @@ function Navbar() {
                     onClick={closeMobileMenu}
                   >
                     <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
-                      SIGN UP
+                      Meld je aan!
                     </Button>
                   </Link>
                 )}
