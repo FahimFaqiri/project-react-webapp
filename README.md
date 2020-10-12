@@ -11,7 +11,7 @@ The libraries used for this project are
 
 * My vision for this project is to use it as my base template for my future online webstore.
 
-* This project is completed the main components are created, the dynamic effect is in place. And the footer and navbar are also done if you want to check out this project click on the link! *** https://angry-rosalind-9ae72b.netlify.app ***
+* This project is almost completed, im still only missing the proper linking to different sections of the project but this will be implemented soon. If you wanna check out this project then click the link! *** https://angry-rosalind-9ae72b.netlify.app ***
 
 
 
